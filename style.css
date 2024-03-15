@@ -11,19 +11,18 @@ body {
 }
 
 header {
-    background: #dddddd;
+    background: rgb(151, 237, 200);
     padding: 30px 0 30px 0;
 }
 
-main {
-    .container {
-        background: #ffffff;
+main .container {
+        background: lightcoral; 
         padding: 5px;
-    }
+        height: calc(100vh - 78px - 78px);
 }
 
 footer {
-    background: #dddddd;
+    background: rgb(151, 237, 200);
     padding: 30px 0 30px 0;
     text-align: center;
 
@@ -33,4 +32,33 @@ footer {
     width: 80%;
     margin: 0 auto 0 auto; /*top right bottom left*/
     /*background: yellow;*/
+}
+
+/*Colunas da pag inicial*/
+
+aside {
+    width: 20%;
+    background: rgb(149, 187, 229);
+    float: left;
+    min-height: calc(100vh - 78px - 78px - 5px);
+}
+
+section {
+    width: 80%;
+    background: rgb(199, 150, 232);
+    float: left;
+    padding: 10px;
+}
+
+.project {
+    width: 33.33%;
+    border: solid 2px #000000;
+    height: 180px;
+    float: left;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.project img {
+    max-width: 100%;
 }
